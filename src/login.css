@@ -1,0 +1,148 @@
+/* Container grid */
+.container {
+  background-color: white;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+}
+
+/* Main fixed box */
+.main-box {
+  background-color: white;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+/* Background image container */
+.background-image {
+  position: relative;
+  height: 1010px;
+  top: 14px; /* 3.5 * 4px */
+  background-image: url("./bg1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* LOGIN title */
+.login-title {
+  position: absolute;
+  top: 370px;
+  left: 703px;
+  font-family: 'Abyssinica SIL', Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  color: black;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Inputs */
+.input {
+  position: absolute;
+  background-color: #d9d9d9;
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+  padding-left: 18px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Username input */
+.username {
+  top: 451px;
+  left: 531px;
+  width: 441px;
+  height: 35px;
+}
+
+/* Password input */
+.password {
+  top: 512px;
+  left: 531px;
+  width: 445px;
+  height: 36px; /* approx h-9 = 36px */
+}
+
+/* Checkbox */
+.checkbox {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  top: 578px;
+  left: 552px;
+}
+
+/* Remember Password label */
+.remember-label {
+  position: absolute;
+  top: 577px;
+  left: 592px;
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+  white-space: nowrap;
+}
+
+/* Buttons */
+.btn {
+  position: absolute;
+  height: 36px;
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* LOGIN button */
+.login-btn {
+  top: 624px;
+  left: 534px;
+  width: 207px;
+  background-color: #4e8af8;
+}
+
+/* SIGN UP button */
+.signup-btn {
+  top: 624px;
+  left: 765px;
+  width: 190px;
+  background-color: #4e8af8;
+}
+
+/* Forgot Password link */
+.forgot-password {
+  position: absolute;
+  top: 692px;
+  left: 649px;
+  font-family: 'Readex Pro', Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: #df0202;
+}
+
+/* Header text */
+.header-text {
+  position: absolute;
+  width: 90%;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 800;
+  font-size: clamp(3rem, 7vw, 5rem);
+  color: #000;
+  text-align: center;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
