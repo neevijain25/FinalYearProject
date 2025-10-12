@@ -1,2 +1,2 @@
 # FinalYearProject
-For final yaer project
+For final year project
